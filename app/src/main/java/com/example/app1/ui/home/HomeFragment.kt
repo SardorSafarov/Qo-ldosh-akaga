@@ -83,7 +83,7 @@ class HomeFragment : Fragment() {
         list1.forEach {
             d("sardor","${it.ustun2}")
         }
-        adapter.setdata(list1)
+        adapter.setdata(list1,query)
     }
 
     }
