@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_yurak"
+            android:title="Inson tana azolar" />
+        <item
+            android:id="@+id/nav_gallery3"
+            android:icon="@drawable/ic_miyya"
+            android:title="Tabbiy evfemizlar" />
+        <item
+            android:id="@+id/nav_slideshow1"
+            android:icon="@drawable/ic_duxtr"
+            android:title="Tibbiy perefrazalar" />
+        <item
+            android:id="@+id/muallif"
+            android:icon="@drawable/ic_tish"
+            android:title="Tibbiy metaforalar" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ttttttt"
+            android:title="Dastur haqida" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_baseline_perm_identity_24"
+            android:title="Mualliflar" />
+    </group>
+</menu>
